@@ -1,6 +1,5 @@
 language: node_js
-rvm:
--v12.19.0
--javascript
+node_js:
+  - 7
 services:
--docker
+  - docker
